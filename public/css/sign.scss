@@ -1,0 +1,27 @@
+.sign-in-main {
+    width: 100%;
+    height: 100vh;
+    background: url('../Assets/aside.jpg') no-repeat center center/cover;
+
+    .main {
+        width: 100%;
+        height: 100%;
+        background: rgba($color: #000000, $alpha: 0.8);
+        display: grid;
+        place-items: center;
+
+        form {
+            padding: 30px 40px;
+            background: #fafafa;
+            border-radius: 10px;
+        }
+
+        .form-input {
+            width: 350px;
+        }
+
+        .submit {
+            width: 100%;
+        }
+    }
+}

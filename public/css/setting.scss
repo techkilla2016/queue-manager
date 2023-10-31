@@ -1,0 +1,87 @@
+.setting {
+    width: 100%;
+
+    .setting-list {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 6px;
+        width: 100%;
+        padding: 0px 0px;
+        display: flex;
+        align-items: center;
+        // overflow: hidden;
+        overflow: auto;
+        table {
+            width: 100%;
+
+            tr {
+                font-size: 15px;
+
+                th,
+                td {
+                    padding: 20px 20px;
+    
+                    &:first-child {
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            .edit {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                box-shadow: rgba(99, 99, 99, 0.074) 0px 2px 3px 0px;
+                background: #fff;
+                display: grid;
+                place-items: center;
+                outline: none;
+            }
+        }
+
+        .row-1 {
+            background: #fff;
+        }
+    }
+}
+
+.toggle_td {
+    position: relative;
+}
+
+.togggle-option {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+    // transform: translate(-25%, 10%);
+}
+
+.toggle-btn-box {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+.back-btn {
+    font-size: 30px;
+    outline: none !important;
+    border: none !important;
+}
+
+.content-box-scan {
+    // background: red;
+    width: 100%;
+}
+
+.scane {
+    text-align: center;
+    font-size: 30px;
+    color: #276897;
+    font-weight: bold;
+}

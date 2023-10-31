@@ -1,0 +1,13 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: #fafafa;
+}
+
+@import './css/aside.scss';
+@import './css/main.scss';
+@import './css/setting.scss';
+@import './css/sign.scss';
+@import './css/auth.scss';
